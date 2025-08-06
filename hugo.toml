@@ -1,0 +1,3 @@
+baseURL = "https://kortas12.github.io/kortas-blog/"
+languageCode = 'en-us'
+title = 'My New Hugo Site'

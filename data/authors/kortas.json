@@ -1,0 +1,11 @@
+{
+    "name": "قرطاس",
+    "image" : "img/author.png",
+    "bio": "مهتم بالتقنية ورسام سابق",
+    "social": [
+        { "twitter": "https://x.com/kortas120" },
+        { "instagram": "https://www.instagram.com/kortas122/" },
+        { "github": "https://github.com/kortas12" },
+        { "reddit": "https://www.reddit.com/user/Silver_Masterpiece82/" }
+    ]
+}
