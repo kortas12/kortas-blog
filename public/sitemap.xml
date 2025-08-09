@@ -8,6 +8,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/kortas-blog/posts/kde-themes/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/kortas-blog/posts/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

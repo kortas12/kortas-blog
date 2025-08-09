@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>تخصيص سطح مكتب on المقهى القرطاسي</title>
+    <link>http://localhost:1313/kortas-blog/tags/%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5-%D8%B3%D8%B7%D8%AD-%D9%85%D9%83%D8%AA%D8%A8/</link>
+    <description>Recent content in تخصيص سطح مكتب on المقهى القرطاسي</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    
+    <atom:link href="http://localhost:1313/kortas-blog/tags/%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5-%D8%B3%D8%B7%D8%AD-%D9%85%D9%83%D8%AA%D8%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>أدوات سطح مكتب كيدي مفيدة لعشاق التخصيص</title>
+      <link>http://localhost:1313/kortas-blog/posts/kde-themes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/kortas-blog/posts/kde-themes/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/kortas-blog/posts/kde-themes/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

@@ -10,10 +10,6 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-  name = "المقالات"
-  pageRef = "posts"
-  weight = 50
 
 [[footer]]
   name = "الوسوم"
@@ -52,6 +48,12 @@
   pre = "twitter"
   url = "https://x.com/kortas120/"
   weight = 20
+
+[[main]]
+  name = "المقالات"
+  pageRef = "posts"
+  weight = 50
+
 
 #[[main]]
 #  identifier = "telegram"
