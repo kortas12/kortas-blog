@@ -2,7 +2,10 @@
 title : "توقعات أنمي لاين عن مستقبل الإنترنت"
 
 tags : ["رسوم متحركة"]
-categories : ["مواضيع عامة"]
+categories : ["خواطر"]
+
+weight: 13
+
 
 showAuthor: true
 authors:

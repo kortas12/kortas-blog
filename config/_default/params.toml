@@ -10,7 +10,7 @@ defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = true
 
 enableSearch = true
-enableCodeCopy = false
+enableCodeCopy = true
 
 replyByEmail = false
 
@@ -20,10 +20,10 @@ replyByEmail = false
 disableImageOptimization = false
 disableImageOptimizationMD = false
 disableTextInHeader = false
-# backgroundImageWidth = 1200
+#backgroundImageWidth = 1200
 
 defaultBackgroundImage = "img/background.gif" # used as default for background images
-# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
+defaultFeaturedImage = "img/background.gif" # used as default for featured images in all articles
 # defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
 
 # highlightCurrentMenuArea = true
@@ -71,10 +71,9 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = false
-  #editURL = "https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content"
+  showEdit = true
   editAppendPath = true
-  seriesOpened = true
+  seriesOpened = false
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
@@ -82,8 +81,8 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showTableOfContents = true
   showRelatedContent = true
   relatedContentLimit = 9
-  showTaxonomies = true 
-  showAuthorsBadges = true 
+  showTaxonomies = true
+  showAuthorsBadges = true
   showWordCount = true
   sharingLinks = [ "linkedin", "twitter", "bluesky", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email", "line"]
   showZenMode = true
@@ -93,7 +92,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = true
   showSummary = true
   showViews = false
@@ -110,25 +109,34 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
-  showTermCount = true
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
+  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = false
+  showSummary = true
   showViews = false
   showLikes = false
   showTableOfContents = false
+  showCards = true
+  orderByWeight = false
+  groupByYear = false
   cardView = true
+  cardViewScreenWidth = false
+  constrainItemsWidth = false
+
 
 [term]
   showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "background"
   showBreadcrumbs = false
   showViews = false
   showLikes = false
   showTableOfContents = true
   groupByYear = false
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
+  layoutBackgroundHeaderSpace = false
 
 [firebase]
   # apiKey = "XXXXXX"

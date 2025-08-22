@@ -50,10 +50,26 @@
   weight = 20
 
 [[main]]
-  name = "المقالات"
-  pageRef = "posts"
+  name = "خواطر"
+  pageRef = "خواطر"
   weight = 50
 
+[[main]]
+  name = "مقالات"
+  pageRef = "مقالات"
+  weight = 50
+
+[[main]]
+  name = "شروحات"
+  pageRef = "شروحات"
+  weight = 50
+
+
+#[[main]]
+#  name = "example sub-menu 1"
+#  parent = "Parent"
+#  pageRef = "posts"
+#  weight = 20
 
 #[[main]]
 #  identifier = "telegram"
@@ -67,11 +83,7 @@
 #  name = "Parent"
 #  weight = 20
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+
 
 #[[main]]
 #  name = "example sub-menu 2"
